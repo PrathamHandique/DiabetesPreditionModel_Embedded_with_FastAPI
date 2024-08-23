@@ -1,3 +1,7 @@
+<h1>Projects_Architecture</h1>
+<img width=900" height="400" alt="Screenshot 2024-08-24 at 5 18 00 AM" src="https://github.com/user-attachments/assets/1f52d0c8-f62a-4cb4-8685-98e583d8f602">
+
+
 <h1> </h1>
 <h1> </h1>
 <h1>Screenshots</h1>
