@@ -1,0 +1,83 @@
+/* Import if using a CSS preprocessor like Sass or Less */
+/* @import url('path/to/your/fonts.css'); */
+body{
+  background-color: #17181F;
+  color:#ddd;
+}
+main{
+  max-width: 100px;
+  margin: 30px auto;
+}
+
+.prediction-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  margin: 0 auto;
+  width: 50%;
+  max-width: 50px;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: black; /* Set background to black */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white; /* Change text color to white */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="number"] {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: white; /* Change text color to white */
+  background-color: #333; /* Set background to dark gray */
+  transition: border-color 0.2s ease-in-out;
+}
+
+input[type="number"]:focus {
+  border-color: #4CAF50;
+}
+
+button[type="submit"] {
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  text-align: center;
+  color: white; /* Change text color to white */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .prediction-form {
+    max-width: 90%;
+  }
+}
